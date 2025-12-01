@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Animais Marinhos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:700|Playfair+Display+SC" rel="stylesheet">
+  <script>document.documentElement.className += ' js';</script>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+  <div class="grid-container">
+    <nav class="menu" data-menu="suave">
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul data-menu="list" id="menu">
+        <li><a href="#animais">Animais</a></li>
+        <li data-dropdown>
+          <a href="sobre.html">Sobre</a>
+          <ul class="dropdown-menu">
+            <li><a href="empresa.html">A Empresa</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="socios.html">Sócios</a></li>
+            <li><a href="investidores.html">Investidores</a></li>
+          </ul>
+        </li>
+        <li><a href="#faq">Faq</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a data-modal="abrir" href="login.html">Login <span class="arrow-black"></span></a></li>
+      </ul>
+    </nav>
+    <section class="grid-section animais" data-anime="scroll" id="animais">
+      <h1 class="titulo">Animais marinhos</h1>
+      <ul class="animais-lista" data-tab="menu">
+        <li>
+          <img src="img/tartaruga.webp">
+        </li>
+        <li>
+          <img src="img/carangueijo.jpg">
+        </li>
+        <li>
+          <img src="img/tubarao.webp">
+        </li>
+        <li>
+          <img src="img/baleia.jpg">
+        </li>
+        <li>
+          <img src="img/golfinho.webp">
+        </li>
+        <li>
+          <img src="img/leao-marinho.webp">
+        </li>
+      </ul>
+      <div class="animais-descricao" data-tab="content">
+        <section data-anime="show-right">
+          <h2>Tartaruga</h2>
+          <p> Classificação: Répteis da ordem Testudines.</p>
+          <p>Idade na Terra: Mais de 200 milhões de anos.</p>
+          <p>Característica principal: Possuem carapaça rígida.</p>
+          <p>Respiração: Pulmões.</p>
+        </section>
+        
+        <section data-anime="show-right">
+          <h2>Carangueijo</h2>
+          <p>Classificação: Crustáceos da ordem Decapoda.</p>
+          <p>Número de patas: 10 (incluindo as pinças).</p>
+          <p>Habitat: Praias, manguezais, rios, mares e até cavernas submersas.</p>
+          <p>Crescimento: Precisam trocar a carapaça (muda) para crescer.</p>
+          
+        </section>
+        <section data-anime="show-down">
+          <h2>Tubarão</h2>
+          <p>Classificação: Peixes cartilaginosos (classe Chondrichthyes).</p>
+          <p>Esqueleto: Feito de cartilagem, não de ossos.</p>
+          <p>Idade na Terra: Existem há mais de 400 milhões de anos.</p>
+          <p>Número de espécies: Mais de 500 espécies conhecidas.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>Baleia</h2>
+          <p>Classificação: Mamíferos marinhos (ordem Cetacea).</p>
+          <p>Respiração: Pulmões — precisam subir à superfície para respirar.</p>
+          <p>Narinas: Chamadas de “respiradouros” (blowholes).</p>
+          <p>Temperatura corporal: Sangue quente.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Golfinho</h2>
+          <p>Classificação: Mamíferos marinhos (ordem Cetacea, família Delphinidae).</p>
+          <p>Respiração: Pulmões — precisam subir à superfície para respirar.</p>
+          <p>Narina: Única e localizada no topo da cabeça (blowhole).</p>
+          <p>Temperatura corporal: Sangue quente.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Leão Marinho</h2>
+          <p>Classificação: Mamíferos marinhos (família Otariidae).</p>
+          <p>Diferença de focas: Possuem orelhas externas visíveis e “andam” usando as nadadeiras.</p>
+          <p>Locomoção em terra: Conseguem caminhar bem utilizando as nadadeiras anteriores.</p>
+          <p>Respiração: Pulmões — precisam subir à superfície.</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="grid-section faq" data-anime="scroll" id="faq">
+      <h1 class="titulo">FAQ</h1>
+      <dl class="faq-lista" data-anime="accordion">
+        <dt>Qual o habitat natural dos animais?</dt>
+        <dd>O Oceano</dd>
+        <dt>Eles são raros?</dt>
+        <dd>Definitivamente,devido a ação do ser humano esses animais são cada vez mais raros!</dd>
+        <dt>Qual a fonte de alimentação deles?</dt>
+        <dd>Peixes e outros animais menores</dd>
+        <dt>Como proteger eles?</dt>
+        <dd>Reduzindo a poluição dos Oceanos e combatendo a pesca predatória.</dd>
+      </dl>
+    </section>
+
+    <section class="grid-section galeria" data-anime="scroll">
+      <ul class="custom-controls">
+        <li><img src="img/baleia.jpg" alt=""></li>
+        <li><img src="img/carangueijo.jpg" alt=""></li>
+        <li><img src="img/leao-marinho2.jpg" alt=""></li>
+        <li><img src="img/golfinho2.jpg" alt=""></li>
+        <li><img src="img/tartaruga2.webp" alt=""></li>
+        <li><img src="img/tubarao2.webp "alt=""></li>
+      </ul>
+      <div class="slide-wrapper">
+        <ul class="slide">
+          <li><img src="img/baleia.jpg" alt=""></li>
+          <li><img src="img/carangueijo.jpg" alt=""></li>
+          <li><img src="img/leao-marinho2.jpg" alt=""></li>
+          <li><img src="img/golfinho2.jpg" alt=""></li>
+          <li><img src="img/tartaruga2.webp" alt=""></li>
+          <li><img src="img/tubarao2.webp" alt=""></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="grid-section numeros" data-anime="scroll">
+      <h1 class="titulo">Números</h1>
+      <div class="numeros-grid">
+      </div>
+    </section>
+
+    <section class="grid-section contato" data-anime="scroll" id="contato">
+      <h1 class="titulo">Contato</h1>
+      <div class="mapa" data-tooltip aria-label="Endereço próximo ao estacionamento.">
+        <img src="img/mapa.jpg">
+      </div>
+      <ul class="dados">
+        <li>guilhermefritzs@gmail.com</li>
+        <li>+55 (61) 9999-9999</li>
+        <li>Asa sul </li>
+        <li>Brasília - DF</li>
+        <li>Doe <span class="btc-preco">0</span> bitcoin para nos ajudar</li>
+        <li data-semana="1,2,3,4,5" data-horario="8,18">Seg à Sex das 8 às 18</li>
+      </ul>
+    </section>
+
+    <footer class="copy">
+      <p>Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar"></button>
+      <form action="">
+        <label for="email">Email</label>
+        <input type="text" for="email" id="email">
+        <label for="senha">Senha</label>
+        <input type="password" for="senha" id="senha">
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </section>
+  <script src="main.js"></script>  
+</body>
+</html>
